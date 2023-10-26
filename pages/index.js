@@ -14,8 +14,6 @@ export default function Home() {
       <main>
         <h1> <Link href="/CV.pdf">CV</Link></h1>
       </main>
-
-      <Footer />
     </div>
   )
 }
