@@ -11,16 +11,10 @@ export default function Home() {
       </Head>
 
       <main>
-        {Resume()}
+        <href src='/public/Tech_Resume.pdf'>CV</href>
       </main>
 
       <Footer />
     </div>
   )
 }
-
-function Resume() {
-  return (
-    <iframe src='/public/Tech_Resume.pdf' />
-    )
-  }
